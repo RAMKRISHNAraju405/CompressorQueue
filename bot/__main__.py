@@ -172,8 +172,8 @@ async def something():
                 nn = await e.edit(
                     "`Compressing..`",
                     buttons=[
-                        [Button.inline("STATS", data=f"stats{wah}")],
-                        [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
+                        [Button.inline("STRATS", data=f"stats{wah}")],
+                        [Button.inline("STOP", data=f"skip{wah}")],
                     ],
                 )
                 cmd = FFMPEG.format(dl, out)
