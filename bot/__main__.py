@@ -1,4 +1,4 @@
-#    This file is part of the Compressor distribution.
+i#    This file is part of the Compressor distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -163,7 +163,7 @@ async def something():
                 kk = dl.split("/")[-1]
                 aa = kk.split(".")[-1]
                 rr = "encode"
-                bb = kk.replace(f".{aa}", " compressed.mkv")
+                bb = kk.replace(f".{aa}", " hv_cartoons_compressed.mkv")
                 out = f"{rr}/{bb}"
                 thum = "thumb.jpg"
                 dtime = ts(int((es - s).seconds) * 1000)
