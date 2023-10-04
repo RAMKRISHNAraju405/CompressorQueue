@@ -238,7 +238,7 @@ async def something():
 
 ########### Start ############
 
-LOGS.info("Bot has started.")
+LOGS.info("Bot has started. master HV CARTOONS")
 with bot:
     bot.loop.run_until_complete(startup())
     bot.loop.run_until_complete(something())
